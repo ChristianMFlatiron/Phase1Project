@@ -53,22 +53,8 @@
       "profileImgUrl": "https://www.schecterguitars.com/images/artists/Tim_Feerick_DANCE_GAVIN_DANCE/Tim-feerick-gallery4.jpg",
       "name": "Tim Ferrick",
       "instruments": "Bass",
-      "genreSpecialty": "Rock and Roll",
+      "genreSpecialty": "Rock",
       "id": 9
-    },
-    {
-      "profileImgUrl": "https://pbs.twimg.com/media/DEuv-SAWsAEwLlt.jpg",
-      "name": "Matt Mingus",
-      "instruments": "Drums",
-      "genreSpecialty": "Rock",
-      "id": 10
-    },
-    {
-      "profileImgUrl": "https://img.youtube.com/vi/m2jr0x5j-Wo/0.jpg",
-      "name": "Kelly Sciandra",
-      "instruments": "Piano",
-      "genreSpecialty": "Rock",
-      "id": 11
     }
   ]
 }
