@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MakeABand App</h1>
+    <div class="User-Information">
+        <form id="Information-fill-out">
+        <div id="boxalign2" class="boxalign2" >
+        <label for="name">Profile Picture URL:</label>
+        </div>
+         <input type="text" id="image_url" name="image_url" />
+         <br>
+         <div id="boxalign2" class="boxalign2" > 
+         <label for="name">Name:</label>
+         </div> 
+         <input type="text" id="name" name="name" />
+         <br>
+         <div id="boxalign2" class="boxalign2" > 
+         <label for="name">Instrument(s):</label>
+         </div>
+         <textarea id="instruments" name="instruments"></textarea>
+         <br>
+         <div id="boxalign2" class="boxalign2" > 
+         <label for="description">Genre Specialty:</label>
+         </div>
+         <textarea id="description" name="description"></textarea>
+         <button type="submit" id="button">Make Profile Card</button>
+        </form>
+    <label for="dropdown" id="dropdown-label">Filter By Instrument:</label>
+    <select id="dropdown">
+        <option value="All">All</option>
+        <option value="Guitar">Guitar</option>
+        <option value="Bass">Bass</option>
+        <option value="Drums">Drums</option>
+        <option value="Piano">Piano</option>
+    </select>
+      <ul id="User-List" class="cards">
+      </ul>
+    </div>
+    <div><script defer src="index.js"></script></div>
+</body>
+</html>

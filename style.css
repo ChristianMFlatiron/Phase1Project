@@ -1,0 +1,76 @@
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+.card 
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+    background-color: #fff;
+    animation: enter 0.25s ease-out;
+    box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  .card img {
+    width: 100%;
+  }
+  
+  .card .content {
+    padding: 1rem 0.5rem;
+  }
+  
+  .card .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  #Information-fill-out {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  /* input.rounded2 {
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+
+    float: left;
+    display: inline-block;
+    clear: left;
+    width: 150px;
+    text-align: right;
+} */
+
+body {
+  background-image: url("https://content.fortune.com/wp-content/uploads/2014/08/rwh1777.jpg");
+  background-color: #e79898;
+ }
+
+ h1{
+   color: white
+ }
+
+#dropdown-label{
+   color:white
+ }
+
+

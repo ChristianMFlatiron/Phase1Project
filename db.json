@@ -1,0 +1,81 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "profileImgUrl": "https://i.ibb.co/bQRrsMn/Totally-Kyle.jpg",
+      "name": "Totally Kyle",
+      "instruments": "Guitar",
+      "genreSpecialty": "Rock and roll"
+    },
+    {
+      "id": 2,
+      "profileImgUrl": "https://townsquare.media/site/295/files/2020/10/Gene-Simmons.jpg?w=980&q=75",
+      "name": "Gene Simmons",
+      "instruments": "Bass",
+      "genreSpecialty": "Rock and roll"
+    },
+    {
+      "id": 3,
+      "profileImgUrl": "https://cdn.britannica.com/69/82669-050-B3421191/Ray-Charles-Nashville-Tenn-2003.jpg",
+      "name": "Ray Charles",
+      "instruments": "Piano",
+      "genreSpecialty": "Jazz, Country, Soul, Blues"
+    },
+    {
+      "profileImgUrl": "https://pbs.twimg.com/media/DVe0xJ5V4AAzfAl?format=jpg&name=large",
+      "name": "Will Swan",
+      "instruments": "Guitar",
+      "genreSpecialty": "Rock",
+      "id": 4
+    },
+    {
+      "profileImgUrl": "https://i.guim.co.uk/img/media/329d7e482cce9c7c6da853e435f42f6bf390e19b/0_3_3088_1852/master/3088.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e3e3a53bbefa851f8ea22eb3ec4c6fde",
+      "name": "Ringo Starr",
+      "instruments": "Drums",
+      "genreSpecialty": "Rock",
+      "id": 5
+    },
+    {
+      "profileImgUrl": "https://www.biography.com/.image/t_share/MTI2NTgyMzIxOTcyMjU5NDU5/beethoven-600x600jpg.jpg",
+      "name": "Ludwig van Beethoven",
+      "instruments": "Piano",
+      "genreSpecialty": "Classical",
+      "id": 6
+    },
+    {
+      "profileImgUrl": "https://img2.grunge.com/img/gallery/the-sad-truth-about-karen-carpenters-marriage/a-quick-marriage-1604593141.jpg",
+      "name": "Karen Carpenter",
+      "instruments": "Drums",
+      "genreSpecialty": "Pop",
+      "id": 7
+    },
+    {
+      "profileImgUrl": "https://media.npr.org/assets/img/2017/03/18/gettyimages-74254317-1-_custom-aef94890d4830616c516c0fd20eb120fdb2d7136.jpg",
+      "name": "Charles Edward Anderson Berry",
+      "instruments": "Guitar",
+      "genreSpecialty": "Rock and Roll",
+      "id": 8
+    },
+    {
+      "profileImgUrl": "https://www.schecterguitars.com/images/artists/Tim_Feerick_DANCE_GAVIN_DANCE/Tim-feerick-gallery4.jpg",
+      "name": "Tim Ferrick",
+      "instruments": "Bass",
+      "genreSpecialty": "Rock and Roll",
+      "id": 9
+    },
+    {
+      "profileImgUrl": "https://pbs.twimg.com/media/DEuv-SAWsAEwLlt.jpg",
+      "name": "Matt Mingus",
+      "instruments": "Drums",
+      "genreSpecialty": "Rock",
+      "id": 10
+    },
+    {
+      "profileImgUrl": "https://img.youtube.com/vi/m2jr0x5j-Wo/0.jpg",
+      "name": "Kelly Sciandra",
+      "instruments": "Piano",
+      "genreSpecialty": "Rock",
+      "id": 11
+    }
+  ]
+}
