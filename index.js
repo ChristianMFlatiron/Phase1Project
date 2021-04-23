@@ -43,7 +43,23 @@ function renderMusician(musicianObj){
     newCard.appendChild(musicianGenre)
     cards.appendChild(newCard)
     newCard.instrument = musicianObj.instruments
+    const deleteMusicianButton = document.createElement("button")
+    deleteMusicianButton.id = musicianObj.id
+    deleteMusicianButton.innerHTML = "Delete"
+    deleteMusicianButton.style.background = '#DC143C'
+    deleteMusicianButton.addEventListener("click", deleteMusician)
+    newCard.appendChild(deleteMusicianButton)
 }
+
+function deleteMusician(e){
+
+    fetch(BASE_URL +"/" + e.target.id,{
+        method: 'DELETE',
+    })
+    .then(res => res.json())
+    .then(data => console.log("Deleted"))
+}
+
 
 
 
